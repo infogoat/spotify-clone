@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify_clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class= "brand" ><img src="logo1.png" alt="spotify"> spotify </li>
+            <li>Home</li>
+            <li>About </li>
+        </ul>
+    </nav>
+      
+    <div class= "container">
+<div class=" songList">
+    <h1>MY FAVORITE SONGS</h1>
+    <div class="songItemContainer">
+    <div class="songItem">
+        <img alt="1">
+        <span class="songName">   Hyuna I'm Not Cool </span>
+        <span class="songListPlay"> <span class="timestamp"> 02:56 <span class="playButton"><i id="0" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+       <div class="songItem">
+        <img alt="1">
+        <span class="songName">   Sugar crush by ElyOtto </span>
+        <span class="songListPlay"> <span class="timestamp"> 01:20 <span class="playButton"><i id="1" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+       <div class="songItem">
+        <img alt="1">
+        <span class="songName">  cuppy cake song </span>
+        <span class="songListPlay"> <span class="timestamp"> 01:00 <span class="playButton"><i id="2" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+       <div class="songItem">
+        <img alt="1">
+        <span class="songName">  breathless song by Shankar Mahadevan </span>
+        <span class="songListPlay"> <span class="timestamp"> 06:05 <span class="playButton"><i id="3" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+       <div class="songItem">
+        <img alt="1">
+        <span class="songName"> aishite aishite ft. Hatsume Miku </span>
+        <span class="songListPlay"> <span class="timestamp"> 04:10 <span class="playButton"><i id="4" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+       <div class="songItem">
+        <img alt="1">
+        <span class="songName">   sukidakara(Piano-version) </span>
+        <span class="songListPlay"> <span class="timestamp"> 05:19  <span class="playButton"><i id="5" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+       <div class="songItem">
+        <img alt="1">
+        <span class="songName"> We don't talk anymore by jimin and jungkook </span>
+        <span class="songListPlay"> <span class="timestamp"> 03:48 <span class="playButton"><i id="6" class="fa-solid fa-circle-play"></i></span></span></span>
+       </div>
+
+    </div> 
+</div>
+
+<div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+    
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icon">
+        <!--fontawesome-->
+        <i class="fa-2x fa-solid fa-backward-step" id="previous"></i>
+        <i class="fa-2x fa-solid fa-circle-play" id="masterPlay"></i>
+        <i class="fa-2x fa-solid fa-forward-step" id="next"></i>
+    </div>
+ 
+    </div>
+           <div class="songInfo">
+            <img src="Nt6v.gif" width="60px" alt="GIF" class="loaded" id="gif"><span id="masterSongName">sukidakara </span> 
+            
+        </div>
+    </div>
+  
+    <script src="https://kit.fontawesome.com/769da30a85.js" crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
